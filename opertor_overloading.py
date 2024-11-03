@@ -11,6 +11,11 @@ class Vector:
         y = self.y + other.y
         return Vector(x,y)
     
+    def __sub__(self,other):
+        x = self.x - other.x
+        y = self.y - other.y
+        return Vector(x,y)
+    
 v1 = Vector(2,5)
 print(v1)
 
@@ -19,3 +24,6 @@ print(v2)
 
 v3 = v1+ v2
 print(v3)
+
+v4 = v3-v1
+print(v4)
