@@ -1,0 +1,12 @@
+<library>
+    <book>
+        <title>The Little Prince</title>
+        <author>Antoine de Saint-Exupéry</author>
+        <year>1943</year>
+    </book>
+    <book>
+        <title>Charlotte's Web</title>
+        <author>E. B. White</author>
+        <year>1952</year>
+    </book>
+</library>
