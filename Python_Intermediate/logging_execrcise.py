@@ -9,6 +9,9 @@ console_handler.setLevel(logging.WARNING)
 file_handler = logging.FileHandler('superhero_logs.txt')
 file_handler.setLevel(logging.DEBUG)
 
+formatter = logging.Formatter("%(levelname)s -%(asctime)s : %(message)s")
+file_handler.setFormatter(formatter)
+
 logger.addHandler(console_handler)
 logger.addHandler(file_handler)
 

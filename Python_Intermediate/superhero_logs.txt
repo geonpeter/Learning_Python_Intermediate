@@ -1,0 +1,5 @@
+INFO -2024-11-13 23:21:29,023 : Superhero mission started.
+WARNING -2024-11-13 23:21:29,024 : Villain sighted! Proceed with caution.
+ERROR -2024-11-13 23:21:29,024 : Gadget malfunction! Need repairs.
+CRITICAL -2024-11-13 23:21:29,025 : Backup needed immediately!
+DEBUG -2024-11-13 23:21:29,025 : Mission update: All clear.
